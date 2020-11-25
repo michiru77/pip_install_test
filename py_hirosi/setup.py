@@ -1,15 +1,15 @@
 import setuptools
 
 with open("README.md", "r") as fh:
-    long_description2 = fh.read()
+    long_description = fh.read()
 
 setuptools.setup(
-    name="module2",
+    name="module1",
     version="1.0",
     author="michiru77",
     author_email="XXX",
-    description="module2 is my own python package",
-    long_description=long_description2,
+    description="module1 is my own python package",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="XXX",
     packages=setuptools.find_packages(),
