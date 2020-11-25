@@ -12,7 +12,7 @@ setuptools.setup(
     author="michiru77",
     author_email="XXX",
     description="module1 is my own python package",
-    long_description=long_description1
+    long_description=long_description1,
     long_description_content_type="text/markdown",
     url="XXX",
     packages=setuptools.find_packages(),
@@ -29,7 +29,7 @@ setuptools.setup(
     author="michiru77",
     author_email="XXX",
     description="module2 is my own python package",
-    long_description=long_description2
+    long_description=long_description2,
     long_description_content_type="text/markdown",
     url="XXX",
     packages=setuptools.find_packages(),
