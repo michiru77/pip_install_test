@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="module2",
+    name="japatypo",
     version="1.0",
     author="michiru77",
     author_email="XXX",
