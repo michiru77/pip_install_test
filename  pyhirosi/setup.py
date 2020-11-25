@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=hirosi_long_description,
     long_description_content_type="text/markdown",
     url="XXX",
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages('pyhirosi'),
     classifiers=[
         "Programming Language :: Python :: XXX",
         "License :: OSI Approved :: XXX",
